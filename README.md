@@ -12,7 +12,7 @@ The main objective of this package is to facilitate the return of paginated data
 
 ## Installation
 
-[nuget CachingApp](https://www.nuget.org/packages/PagedPackage/1.0.0)
+[nuget PagedPackage](https://www.nuget.org/packages/PagedPackage/1.0.0)
 
 ```sh
 Install-Package PagedPackage -Version 1.0.0
