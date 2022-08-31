@@ -4,7 +4,29 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Leonardo Jacques da Silva</Authors>
+    <Company>Leonardo Jacques da Silva</Company>
+    <Description>Simple package to return paginated data</Description>
+    <Copyright>Leonardo Jacques da Silva</Copyright>
+    <PackageProjectUrl>https://github.com/leosul/PagedPackage</PackageProjectUrl>
+    <PackageIcon>IconNuget.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/leosul/PagedPackage</RepositoryUrl>
+    <PackageTags>csharp;pagination;paged;package</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\IconNuget.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
